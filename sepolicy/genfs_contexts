@@ -1,0 +1,5 @@
+# Display
+genfscon proc /ged u:object_r:proc_ged:s0
+
+# Last kmsg
+genfscon proc /last_kmsg u:object_r:proc_last_kmsg:s0
