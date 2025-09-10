@@ -22,10 +22,3 @@ sed -i 's/TAB-A04-BR3/a04br3/g' vendor/sts/a04br3/a04br3-vendor.mk
 sed -i 's/benesse/sts/g' vendor/sts/a04br3/a04br3-vendor.mk
 sed -i 's/TAB-A04-BR3/a04br3/g' vendor/sts/a04br3/Android.mk
 sed -i 's/benesse/sts/g' vendor/sts/a04br3/Android.mk
-
-# setup device tree
-git clone https://github.com/Nyaruke/android_device_sts_a04br3-test device/sts/a04br3
-mv device/sts/a04br3/build-utils/try-build.sh ./
-
-# setup kernel source
-git clone https://github.com/Nyaruke/android_kernel_sts_a04br3-auto.git kernel/sts/a04br3
