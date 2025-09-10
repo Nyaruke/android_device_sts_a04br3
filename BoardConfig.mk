@@ -72,7 +72,6 @@ TARGET_KERNEL_HEADER_ARCH := arm64
 TARGET_KERNEL_CONFIG := a04br3_defconfig
 TARGET_KERNEL_SOURCE := kernel/sts/a04br3
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-android-
-BOARD_MTK_KERNEL_CMDLINE := $(BOARD_KERNEL_CMDLINE)
 
 # Vendor partition configure
 BOARD_USES_VENDORIMAGE := false
@@ -83,7 +82,7 @@ TARGET_BOARD_PLATFORM := mt8167
 
 # Recovery
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/recovery/fstab.mt8167
-#LZMA_RAMDISK_TARGETS := recovery
+LZMA_RAMDISK_TARGETS := recovery
 
 # Security patch level
 VENDOR_SECURITY_PATCH := 2021-08-01
@@ -96,12 +95,12 @@ VENDOR_SECURITY_PATCH := 2021-08-01
 BOARD_USES_MTK_HARDWARE := true
 MTK_HARDWARE := true
 BOARD_HAS_MTK_HARDWARE := true
-#ENABLE_CPUSETS := true
-#ENABLE_SCHEDBOOST := true
-PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
-    ro.build.product=TAB-A04-BR3 \
-    ro.product.board=TAB-A04-BR3 \
-    ro.product.device=TAB-A04-BR3
+ENABLE_CPUSETS := true
+ENABLE_SCHEDBOOST := true
+#PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+#    ro.build.product=TAB-A04-BR3 \
+#    ro.product.board=TAB-A04-BR3 \
+#    ro.product.device=TAB-A04-BR3
 
 # CUSTOM bootimg.mk is not needed!!!
 #BOARD_CUSTOM_BOOTIMG_MK := $(DEVICE_PATH)/mkbootimg.mk
@@ -112,7 +111,7 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
 -include vendor/sts/a04br3/BoardConfigVendor.mk
 
 # Properties
-#TARGET_SYSTEM_PROP := $(DEVICE_PATH)/system.prop
+# TARGET_SYSTEM_PROP := $(DEVICE_PATH)/system.prop
 
 # Soong
 PRODUCT_SOONG_NAMESPACES += $(DEVICE_PATH)
