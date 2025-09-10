@@ -1,0 +1,32 @@
+# WARNING: THIS FILE IS TESTING
+
+# audio
+vendor/etc/audio_device.xml
+vendor/etc/audio_em.xml
+vendor/etc/audio_param
+vendor/etc/audio_policy.conf
+vendor/etc/libaudio_param_parser.so
+vendor/etc/libaudiocompensationfilter.so
+vendor/etc/libaudiocomponentengine.so
+vendor/etc/libaudiocustparam.so
+vendor/etc/libaudiodcrflt.so
+vendor/etc/libaudiosetting.so
+vendor/etc/libaudiotoolkit.so
+
+# jar
+system/framework/core-oj.jar
+system/framework/core-libart.jar
+system/framework/conscrypt.jar
+system/framework/okhttp.jar
+system/framework/core-junit.jar
+system/framework/bouncycastle.jar:
+system/framework/ext.jar:/
+system/framework/framework.jar:/
+system/framework/telephony-common.jar:/
+system/framework/voip-common.jar:/
+system/framework/ims-common.jar:/
+system/framework/apache-xml.jar:/
+system/framework/org.apache.http.legacy.boot.jar
+system/framework/mediatek-common.jar
+system/framework/mediatek-framework.jar
+system/framework/mediatek-telephony-common.jar
