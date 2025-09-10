@@ -31,7 +31,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/etc/init.recovery.mt8167.rc:root/init.recovery.mt8167.rc \
     $(LOCAL_PATH)/rootdir/etc/ueventd.mt8167.rc:root/ueventd.mt8167.rc
     
-PRODUCT_COPY_FILES += \
+PRODUCT_COPY_FILES += \ # DO NOT EDIT
     $(LOCAL_PATH)/rootdir/recovery/multi_init.rc:recovery/root/multi_init.rc \
     $(LOCAL_PATH)/rootdir/recovery/factory_init.connectivity.rc:recovery/root/factory_init.connectivity.rc \
     $(LOCAL_PATH)/rootdir/recovery/factory_init.project.rc:recovery/root/factory_init.project.rc \

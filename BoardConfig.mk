@@ -111,7 +111,7 @@ ENABLE_SCHEDBOOST := true
 -include vendor/sts/a04br3/BoardConfigVendor.mk
 
 # Properties
-# TARGET_SYSTEM_PROP := $(DEVICE_PATH)/system.prop
+TARGET_SYSTEM_PROP := $(DEVICE_PATH)/system.prop
 
 # Soong
 PRODUCT_SOONG_NAMESPACES += $(DEVICE_PATH)
