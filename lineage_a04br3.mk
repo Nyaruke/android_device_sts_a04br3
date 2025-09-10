@@ -26,4 +26,9 @@ PRODUCT_GMS_CLIENTID_BASE := android-sts
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="TAB-A04-BR3-user 7.0 01.06.000 01.06.000 release-keys"
 
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+    ro.build.product=TAB-A04-BR3 \
+    ro.product.board=TAB-A04-BR3 \
+    ro.product.device=TAB-A04-BR3
+
 BUILD_FINGERPRINT := benesse/TAB-A04-BR3/TAB-A04-BR3:7.0/01.06.000/01.06.000:user/release-keys
