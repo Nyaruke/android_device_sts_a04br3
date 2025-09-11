@@ -28,9 +28,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/etc/init.common_svc.rc:root/init.common_svc.rc \
     $(LOCAL_PATH)/rootdir/etc/fstab.mt8167:root/fstab.mt8167 \
     $(LOCAL_PATH)/rootdir/etc/init.recovery.mt8167.rc:root/init.recovery.mt8167.rc \
-    $(LOCAL_PATH)/rootdir/etc/ueventd.rc:root/ueventd.rc \
     $(LOCAL_PATH)/rootdir/etc/ueventd.mt8167.rc:root/ueventd.mt8167.rc
-    #$(LOCAL_PATH)/rootdir/etc/enableswap.sh:root/enableswap.sh \ 
+
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/recovery/multi_init.rc:recovery/root/multi_init.rc \
     $(LOCAL_PATH)/rootdir/recovery/factory_init.connectivity.rc:recovery/root/factory_init.connectivity.rc \
