@@ -12,7 +12,7 @@ $(call inherit-product, device/sts/a04br3/device.mk)
 $(call inherit-product, vendor/cm/config/common_mini_tablet_wifionly.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := TAB-A04-BR3
+PRODUCT_DEVICE := a04br3
 PRODUCT_NAME := lineage_a04br3
 PRODUCT_RELEASE_NAME := TAB-A04-BR3
 PRODUCT_BRAND := benesse
