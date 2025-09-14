@@ -18,8 +18,8 @@
 
 set -e
 
-DEVICE=flounder
-VENDOR=htc
+DEVICE=a04br3
+VENDOR=sts
 
 # Load extract_utils and do some sanity checks
 MY_DIR="${BASH_SOURCE%/*}"
