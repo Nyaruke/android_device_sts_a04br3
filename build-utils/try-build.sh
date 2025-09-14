@@ -52,17 +52,17 @@ main() {
     echo -e "Setting up variable"
     prepare_env
     
-    if [ "$FORCE_CLEAN" = "true" ]; then
-        run_command "make clean"
-        exit 0
-    fi
-
     echo -e "Try to build..."
     run_command ". build/envsetup.sh"
 
     run_command "lunch ${DEFAULT_LINEAGE_OR_CM}_${TARGET_DEVICE}-${DEFAULT_COMBO}"
     run_command "mkdir -p out/target/product/${TARGET_DEVICE}/obj/KERNEL_OBJ/usr"
     
+    if [ "$FORCE_CLEAN" = "true" ]; then
+        run_command "make clean"
+        exit 0
+    fi
+
     if [ "$TARGET_FILE" = "OTA" ]; then
         run_command "brunch ${TARGET_DEVICE}"
     elif [ "$TARGET_FILE" = "recoveryimage" ]; then
