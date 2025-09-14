@@ -335,16 +335,23 @@ vendor/bin/wmt_launcher
 vendor/bin/wmt_loader
 vendor/bin/wmt_loopback
 
-# app
-#vendor/app/BtTool
-#vendor/app/MTKLogger
-#vendor/app/MTKThermalManager
-#vendor/app/MiraVision
-#vendor/app/MtkBrowser
-#vendor/app/MtkCalendar
+# mediatek app (testing?)
+-system/vendor/framework/mediatek-res/mediatek-res.apk
+-system/vendor/app/MTKThermalManager/MTKThermalManager.apk
+-system/vendor/app/CalendarImporter/CalendarImporter.apk
+-system/vendor/app/Camera/Camera.apk
+-system/vendor/app/MTKLogger/MTKLogger.apk
+-system/vendor/app/MiraVision/MiraVision.apk
+-system/vendor/app/DchaDataBox/DchaDataBox.apk
+-system/vendor/app/DchaSetupWizard/DchaSetupWizard.apk
+-system/vendor/app/DchaSystemSettings/DchaSystemSettings.apk
+-system/vendor/app/DchaService/DchaService.apk
+
+# thermal
+system/vendor/etc/.tp/.thermal_policy_00
+system/vendor/etc/.tp/thermal.conf
 
 # framework
 vendor/framework/CustomPropInterface.jar
-vendor/framework/mediatek-res/mediatek-res.apk
 vendor/framework/oat/arm64/CustomPropInterface.odex
 vendor/framework/oat/arm/CustomPropInterface.odex
