@@ -15,6 +15,15 @@ vendor/lib64/hw/libaudiotoolkit.so
 vendor/lib64/hw/audio.primary.mt8167.so
 vendor/lib64/hw/audio.r_submix.mt8167.so
 vendor/lib64/hw/audio.usb.mt8167.so
+vendor/lib64/lib3a.so
+vendor/lib64/libbessound_hd_mtk.so
+vendor/lib64/libblisrc.so
+vendor/lib64/libblisrc32.so
+vendor/lib64/libcvsd_mtk.so
+vendor/lib64/libmsbc_mtk.so
+vendor/lib64/libmtklimiter.so
+vendor/lib64/libmtkshifter.so
+vendor/lib64/libspeech_enh_lib.so
 
 # camera
 vendor/lib64/libcam.camadapter.so
@@ -50,6 +59,23 @@ vendor/lib64/libcamdrv.so
 vendor/lib64/libcamdrv_FrmB.so
 vendor/lib64/libcameracustom.so
 vendor/lib64/hw/camera.mt8167.so
+vendor/lib64/libGdmaScalerPipe.so
+vendor/lib64/libJpgDecPipe.so
+vendor/lib64/libJpgEncPipe.so
+vendor/lib64/libSwJpgCodec.so
+vendor/lib64/lib_uree_mtk_video_secure_al.so
+vendor/lib64/libacdk.so
+vendor/lib64/libaed.so
+vendor/lib64/libfeatureio.so
+vendor/lib64/libfeatureiodrv.so
+vendor/lib64/libhdrproc.so
+vendor/lib64/libimageio.so
+vendor/lib64/libimageio_FrmB.so
+vendor/lib64/libimageio_plat_drv.so
+vendor/lib64/libimageio_plat_drv_FrmB.so
+vendor/lib64/libmhalImageCodec.so
+vendor/lib64/libmtkcam_fwkutils.so
+vendor/lib64/libmtkjpeg.so
 
 # Display / Graphics HAL
 vendor/lib64/egl/libEGL_mtk.so
@@ -61,6 +87,26 @@ vendor/lib64/libOpenCL.so
 vendor/lib64/hw/gralloc.mt8167.so
 vendor/lib64/hw/hwcomposer.mt8167.so
 vendor/lib64/hw/memtrack.mt8167.so
+vendor/lib64/libLLVMIMG.so
+vendor/lib64/libPVROCL.so
+vendor/lib64/libPVRScopeServices.so
+vendor/lib64/libclangIMG.so
+vendor/lib64/libdpframework.so
+vendor/lib64/libglslcompiler.so
+vendor/lib64/libgpu_aux.so
+vendor/lib64/libgralloc_extra.so
+vendor/lib64/libgui_ext.so
+vendor/lib64/libui_ext.so
+vendor/lib64/libwidevinehdcpinfo.so
+
+# codec / media
+vendor/lib64/libBnMtkCodec.so
+vendor/lib64/libMtkOmxCore.so
+vendor/lib64/libstagefrighthw.so
+vendor/lib64/libvcodec_cap.so
+vendor/lib64/libvcodec_utility.so
+vendor/lib64/libvcodecdrv.so
+vendor/lib64/libyv12util.so
 
 # radio / telephony
 vendor/lib64/librilmtk.so
@@ -87,6 +133,7 @@ vendor/lib64/hw/keystore.mt8167.so
 vendor/lib64/hw/lights.mt8167.so
 
 # wifi / bluetooth
+vendor/lib64/libbluetooth_hw_test.so
 vendor/lib64/libbluetooth_mtk.so
 vendor/lib64/libbluetooth_mtk_pure.so
 vendor/lib64/libbluetooth_relayer.so
@@ -102,6 +149,83 @@ vendor/firmware/mt6630_patch_e3_0_hdr.bin
 vendor/firmware/mt6630_patch_e3_1_hdr.bin
 vendor/firmware/rgx.fw.signed
 vendor/firmware/rgx.fw.signed.e1
+
+# Framework/System
+vendor/lib64/libccci_util.so
+vendor/lib64/libcomutils.so
+vendor/lib64/libcustom_jni.so
+vendor/lib64/libcustom_nvram.so
+vendor/lib64/libcustom_prop.so
+vendor/lib64/libdirect-coredump.so
+vendor/lib64/libfile_op.so
+vendor/lib64/libfpspolicy.so
+vendor/lib64/libgas.so
+vendor/lib64/libged.so
+vendor/lib64/libhwm.so
+vendor/lib64/libion_mtk.so
+vendor/lib64/libm4u.so
+vendor/lib64/libmemorydumper.so
+vendor/lib64/libmemtrack_GL.so
+vendor/lib64/libmmprofile.so
+vendor/lib64/libmrdump.so
+vendor/lib64/libmtk_drvb.so
+vendor/lib64/libmtk_mmutils.so
+vendor/lib64/libmtk_vt_wrapper.so
+vendor/lib64/libmtkplayer.so
+vendor/lib64/libnativecheck-jni.so
+vendor/lib64/libnvram.so
+vendor/lib64/libnvram_daemon_callback.so
+vendor/lib64/libnvram_platform.so
+vendor/lib64/libnvram_sec.so
+vendor/lib64/libnvramagentclient.so
+vendor/lib64/libperfservice.so
+vendor/lib64/libperfservicenative.so
+vendor/lib64/libprogrambinary.so
+vendor/lib64/libpvrANDROID_WSEGL.so
+vendor/lib64/libsysenv.so
+vendor/lib64/libterservice.so
+vendor/lib64/libtz_uree.so
+vendor/lib64/libudf.so
+vendor/lib64/libufwriter.so
+vendor/lib64/liburee_meta_drmkeyinstall_v2.so
+vendor/lib64/libusc.so
+vendor/lib64/libvt_avsync.so
+
+# Security/DRM
+vendor/lib64/libwidevinehdcpinfo.so
+vendor/lib64/liburee_meta_drmkeyinstall_v2.so
+
+# UI
+vendor/lib64/libminiui.so
+vendor/lib64/libpq_cust.so
+vendor/lib64/libpq_prot.so
+vendor/lib64/libpqservice.so
+
+# Java-related
+vendor/lib64/libMiraVision_jni.so
+vendor/lib64/libPQDCjni.so
+vendor/lib64/libPQjni.so
+vendor/lib64/libhwr_u_jni.so
+vendor/lib64/libjni_pq.so
+vendor/lib64/libmmprofile_jni.so
+
+# Multimedia
+vendor/lib64/libatvctrlservice.so
+vendor/lib64/libfmjni.so
+vendor/lib64/libimsma.so
+vendor/lib64/libimsma_rtp.so
+vendor/lib64/libimsma_socketwrapper.so
+vendor/lib64/libmatv_cust.so
+vendor/lib64/libmdfx.so
+vendor/lib64/libminiui.so
+vendor/lib64/libratconfig.so
+vendor/lib64/librrc.so
+vendor/lib64/libsbox.so
+vendor/lib64/libsink.so
+vendor/lib64/libsource.so
+vendor/lib64/libsrv_um.so
+vendor/lib64/libtouchfilter.so
+vendor/lib64/libts.so
 
 # etc
 vendor/etc/aee-config
@@ -222,4 +346,5 @@ vendor/bin/wmt_loopback
 # framework
 vendor/framework/CustomPropInterface.jar
 vendor/framework/mediatek-res/mediatek-res.apk
-vendor/framework/oat
+vendor/framework/oat/arm64/CustomPropInterface.odex
+vendor/framework/oat/arm/CustomPropInterface.odex
