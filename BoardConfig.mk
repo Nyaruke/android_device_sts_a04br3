@@ -97,7 +97,7 @@ BOARD_USES_MTK_HARDWARE := true
 MTK_HARDWARE := true
 BOARD_HAS_MTK_HARDWARE := true
 ENABLE_CPUSETS := true
-ENABLE_SCHEDBOOST := true
+BOARD_USES_MTK_AUDIO := true
 
 # CUSTOM bootimg.mk is not needed!!!
 #BOARD_CUSTOM_BOOTIMG_MK := $(DEVICE_PATH)/mkbootimg.mk
@@ -126,5 +126,5 @@ BOARD_AVB_ENABLE := false
     mlstrustedsubject=domain
 #BOARD_SEPOLICY_VERS := 29
 #BOARD_SECCOMP_POLICY += $(DEVICE_PATH)/seccomp
-#SELINUX_IGNORE_NEVERALLOWS := true
+SELINUX_IGNORE_NEVERALLOWS := true
 #WITH_SELINUX := false
