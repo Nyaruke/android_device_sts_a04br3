@@ -55,6 +55,7 @@ if [ -z "$SRC" ]; then
     SRC=adb
 fi
 
+# Fix an issue where some /vendor/bin files could not be read by SELinux.
 adb shell su -c "setenforce 0"
 
 # Initialize the helper
