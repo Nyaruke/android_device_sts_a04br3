@@ -68,3 +68,22 @@ sys.ipo.disable=1
 
 #for mali
 #ro.hardware.gralloc=mt8167.mali
+
+rild.libargs=-d /dev/ttyC0
+rild.libpath=mtk-ril.so
+
+ro.boot.serialno=0M9U116077
+ro.hardware=mt8167
+ro.board.platform=mt8167
+ro.product.board=TAB-A04-BR3
+ro.product.brand=benesse
+ro.product.cpu.abi=arm64-v8a
+ro.product.cpu.abilist=arm64-v8a,armeabi-v7a,armeabi
+ro.product.cpu.abilist32=armeabi-v7a,armeabi
+ro.product.cpu.abilist64=arm64-v8a
+ro.product.device=TAB-A04-BR3
+ro.product.first_api_level=24
+ro.product.locale=ja-JP
+ro.product.locale.language=ja
+ro.product.locale.region=JP
+ro.product.name=TAB-A04-BR3
