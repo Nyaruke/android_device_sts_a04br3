@@ -24,6 +24,7 @@ vendor/lib64/libmsbc_mtk.so
 vendor/lib64/libmtklimiter.so
 vendor/lib64/libmtkshifter.so
 vendor/lib64/libspeech_enh_lib.so
+vendor/lib/libaudiomtkdcremoval.so
 
 # camera
 vendor/lib64/libcam.camadapter.so
@@ -98,6 +99,11 @@ vendor/lib64/libgralloc_extra.so
 vendor/lib64/libgui_ext.so
 vendor/lib64/libui_ext.so
 vendor/lib64/libwidevinehdcpinfo.so
+vendor/lib/libvt_custom.so
+vendor/lib/libvt_socketbind.so
+vendor/lib/libmtk_vt_service.so
+vendor/lib/libmtk_vt_swip.so
+vendor/lib/libmtk_vt_utils.so
 
 # codec / media
 vendor/lib64/libBnMtkCodec.so
@@ -107,6 +113,24 @@ vendor/lib64/libvcodec_cap.so
 vendor/lib64/libvcodec_utility.so
 vendor/lib64/libvcodecdrv.so
 vendor/lib64/libyv12util.so
+vendor/lib/libMtkOmxAdpcmDec.so
+vendor/lib/libMtkOmxAdpcmEnc.so
+vendor/lib/libMtkOmxAlacDec.so
+vendor/lib/libMtkOmxApeDec.so
+vendor/lib/libMtkOmxFlacDec.so
+vendor/lib/libMtkOmxG711Dec.so
+vendor/lib/libMtkOmxGsmDec.so
+vendor/lib/libMtkOmxMp3Dec.so
+vendor/lib/libMtkOmxRawDec.so
+vendor/lib/libMtkOmxVdecEx.so
+vendor/lib/libMtkOmxVenc.so
+vendor/lib/libMtkOmxVorbisEnc.so
+vendor/lib/libvp8dec_sa.ca7.so
+vendor/lib/libvp8enc_sa.ca7.so
+vendor/lib/libvp9dec_sa.ca7.so
+vendor/lib/libvcodec_oal.so
+vendor/lib/libvc1dec_sa.ca7.so
+vendor/lib/libmp4enc_sa.ca7.so
 
 # radio / telephony
 vendor/lib64/librilmtk.so
@@ -138,6 +162,7 @@ vendor/lib64/libbluetooth_mtk.so
 vendor/lib64/libbluetooth_mtk_pure.so
 vendor/lib64/libbluetooth_relayer.so
 vendor/lib64/libbluetoothem_mtk.so
+vendor/lib/libbt-vendor.so
 
 # firmware
 vendor/firmware/WIFI_RAM_CODE_MT6630
@@ -226,6 +251,25 @@ vendor/lib64/libsource.so
 vendor/lib64/libsrv_um.so
 vendor/lib64/libtouchfilter.so
 vendor/lib64/libts.so
+
+# misc
+vendor/lib/libClearMotionFW.so
+vendor/lib/libamr_wrap.so
+vendor/lib/libamrvt.so
+vendor/lib/libawb_wrap.so
+vendor/lib/libherope_sa.ca7.so
+vendor/lib/libhevce_sb.ca7.android.so
+vendor/lib/liblic_divx.so
+vendor/lib/liblic_s263.so
+vendor/lib/libmjcFakeEngine.so
+vendor/lib/libmmsdkservice.so
+vendor/lib/libmtcloader.so
+vendor/lib/libshowlogo.so
+vendor/lib/libstorage_otp.so
+vendor/lib/libtimestretch.so
+vendor/lib/libvoicerecognition.so
+vendor/lib/libvoicerecognition_jni.so
+vendor/lib/libvtmal.so
 
 # etc
 vendor/etc/aee-config
@@ -346,6 +390,7 @@ vendor/bin/wmt_loopback
 -vendor/app/DchaSetupWizard/DchaSetupWizard.apk
 -vendor/app/DchaSystemSettings/DchaSystemSettings.apk
 -vendor/app/DchaService/DchaService.apk
+
 
 # thermal
 vendor/etc/.tp/.thermal_policy_00

@@ -55,6 +55,8 @@ if [ -z "$SRC" ]; then
     SRC=adb
 fi
 
+adb shell su -c "setenforce 0"
+
 # Initialize the helper
 setup_vendor "$DEVICE" "$VENDOR" "$CM_ROOT" false "$CLEAN_VENDOR"
 
