@@ -252,7 +252,7 @@ vendor/lib64/libsrv_um.so
 vendor/lib64/libtouchfilter.so
 vendor/lib64/libts.so
 
-# misc
+# other
 vendor/lib/libClearMotionFW.so
 vendor/lib/libamr_wrap.so
 vendor/lib/libamrvt.so
