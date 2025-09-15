@@ -11,7 +11,7 @@ vendor/lib64/libaudiocomponentengine.so
 vendor/lib64/libaudiocustparam.so
 vendor/lib64/libaudiodcrflt.so
 vendor/lib64/libaudiosetting.so
-vendor/lib64/hw/libaudiotoolkit.so
+vendor/lib64/libaudiotoolkit.so
 vendor/lib64/hw/audio.primary.mt8167.so
 vendor/lib64/hw/audio.r_submix.mt8167.so
 vendor/lib64/hw/audio.usb.mt8167.so
@@ -365,7 +365,7 @@ vendor/bin/superumount
 vendor/bin/terservice
 vendor/bin/tertestclient
 vendor/bin/thermal
-vendor/bin/hermal_manager
+vendor/bin/thermal_manager
 vendor/bin/thermald
 vendor/bin/thermalindicator
 vendor/bin/tiny_mkswap
