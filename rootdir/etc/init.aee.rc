@@ -22,5 +22,3 @@ on property:vold.decrypt=trigger_restart_framework
 on property:debug.mtk.aee.reinit=done
     restart debuggerd
     restart debuggerd64
-
-import /init.preload.rc
