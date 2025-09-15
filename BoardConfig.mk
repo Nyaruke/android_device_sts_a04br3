@@ -8,8 +8,6 @@
 DEVICE_PATH := device/sts/a04br3
 ALLOW_MISSING_DEPENDENCIES := true
 
-PRODUCT_CHARACTERISTICS := tablet
-
 # Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-a
