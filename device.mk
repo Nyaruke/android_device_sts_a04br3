@@ -25,12 +25,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/etc/init.rilproxy.rc:root/init.rilproxy.rc \
     $(LOCAL_PATH)/rootdir/etc/init.modem.rc:root/init.modem.rc
 
-#PRODUCT_COPY_FILES += \ # NOTICE: Currently, no additional recovery files are required.
-#    $(LOCAL_PATH)/rootdir/recovery/multi_init.rc:recovery/root/multi_init.rc \
-#    $(LOCAL_PATH)/rootdir/recovery/factory_init.connectivity.rc:recovery/root/factory_init.connectivity.rc \
-#    $(LOCAL_PATH)/rootdir/recovery/factory_init.project.rc:recovery/root/factory_init.project.rc \
-#    $(LOCAL_PATH)/rootdir/recovery/factory_init.rc:recovery/root/factory_init.rc
-
 $(call inherit-product-if-exists, vendor/sts/a04br3/a04br3-vendor.mk)
 
 
