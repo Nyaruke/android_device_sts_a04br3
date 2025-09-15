@@ -69,9 +69,6 @@ sys.ipo.disable=1
 #for mali
 #ro.hardware.gralloc=mt8167.mali
 
-rild.libargs=-d /dev/ttyC0
-rild.libpath=mtk-ril.so
-
 ro.boot.serialno=0M9U116077
 ro.hardware=mt8167
 ro.board.platform=mt8167
@@ -87,3 +84,5 @@ ro.product.locale=ja-JP
 ro.product.locale.language=ja
 ro.product.locale.region=JP
 ro.product.name=TAB-A04-BR3
+
+net.bt.name=Android
