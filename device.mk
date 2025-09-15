@@ -8,7 +8,7 @@
 LOCAL_PATH := device/sts/a04br3
 
 # API levels
-# PRODUCT_SHIPPING_API_LEVEL := 27
+#PRODUCT_SHIPPING_API_LEVEL := 27
 
 # Product characteristics
 PRODUCT_CHARACTERISTICS := tablet
