@@ -379,7 +379,7 @@ vendor/bin/wmt_launcher
 vendor/bin/wmt_loader
 vendor/bin/wmt_loopback
 
-# mediatek app (testing?)
+# mediatek app (testing)
 -vendor/framework/mediatek-res/mediatek-res.apk
 -vendor/app/MTKThermalManager/MTKThermalManager.apk
 -vendor/app/CalendarImporter/CalendarImporter.apk
