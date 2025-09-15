@@ -380,16 +380,16 @@ vendor/bin/wmt_loader
 vendor/bin/wmt_loopback
 
 # mediatek app (testing)
--vendor/framework/mediatek-res/mediatek-res.apk
--vendor/app/MTKThermalManager/MTKThermalManager.apk
--vendor/app/CalendarImporter/CalendarImporter.apk
--vendor/app/Camera/Camera.apk
--vendor/app/MTKLogger/MTKLogger.apk
--vendor/app/MiraVision/MiraVision.apk
--vendor/app/DchaDataBox/DchaDataBox.apk
--vendor/app/DchaSetupWizard/DchaSetupWizard.apk
--vendor/app/DchaSystemSettings/DchaSystemSettings.apk
--vendor/app/DchaService/DchaService.apk
+#-vendor/framework/mediatek-res/mediatek-res.apk
+#-vendor/app/MTKThermalManager/MTKThermalManager.apk
+#-vendor/app/CalendarImporter/CalendarImporter.apk
+#-vendor/app/Camera/Camera.apk
+#-vendor/app/MTKLogger/MTKLogger.apk
+#-vendor/app/MiraVision/MiraVision.apk
+#-vendor/app/DchaDataBox/DchaDataBox.apk
+#-vendor/app/DchaSetupWizard/DchaSetupWizard.apk
+#-vendor/app/DchaSystemSettings/DchaSystemSettings.apk
+#-vendor/app/DchaService/DchaService.apk
 
 
 # thermal
