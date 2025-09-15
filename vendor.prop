@@ -138,3 +138,4 @@ wifi.interface=wlan0
 ro.oem_unlock_supported=0
 ro.board.platform=mt8167
 ro.boot.hardware=mt8167
+ro.hardware=mt8167
