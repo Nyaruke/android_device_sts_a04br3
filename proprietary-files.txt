@@ -410,7 +410,7 @@ lib64/libMTKAudioTimeStretch.so
 etc/media_codecs_mediatek_audio.xml
 etc/media_codecs_mediatek_video.xml
 etc/media_codecs.xml
-system/etc/media_codecs_google_audio.xml
+etc/media_codecs_google_audio.xml
 system/etc/media_codecs_google_video_le.xml
 system/etc/media_codecs_mediatek_audio.xml
 system/etc/media_codecs_mediatek_video.xml
