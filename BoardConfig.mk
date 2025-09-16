@@ -117,12 +117,12 @@ BOARD_AVB_ENABLE := false
 
 # SELinux
 #BOARD_SEPOLICY_DIRS := $(DEVICE_PATH)/sepolicy
-#BOARD_SEPOLICY_DIRS := \
-#	$(LOCAL_PATH)/sepolicy/
+BOARD_SEPOLICY_DIRS := \
+	$(LOCAL_PATH)/sepolicy/
 #BOARD_SEPOLICY_M4DEFS := \
     public_domain=authr_type \
     mlstrustedsubject=domain
 #BOARD_SEPOLICY_VERS := 29
-#BOARD_SECCOMP_POLICY += $(DEVICE_PATH)/seccomp
+BOARD_SECCOMP_POLICY += $(DEVICE_PATH)/seccomp
 SELINUX_IGNORE_NEVERALLOWS := true
 #WITH_SELINUX := false
