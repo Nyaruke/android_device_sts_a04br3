@@ -411,39 +411,39 @@ etc/media_codecs_mediatek_audio.xml
 etc/media_codecs_mediatek_video.xml
 etc/media_codecs.xml
 etc/media_codecs_google_audio.xml
-system/etc/media_codecs_google_video_le.xml
-system/etc/media_codecs_mediatek_audio.xml
-system/etc/media_codecs_mediatek_video.xml
-system/etc/media_codecs_performance.xml
-system/etc/a2dp_audio_policy_configuration.xml
-system/etc/audio_policy_configuration.xml
-system/etc/audio_policy_volumes.xml
-system/etc/default_volume_tables.xml
-system/etc/r_submix_audio_policy_configuration.xml
-system/etc/usb_audio_policy_configuration.xml
+etc/media_codecs_google_video_le.xml
+etc/media_codecs_mediatek_audio.xml
+etc/media_codecs_mediatek_video.xml
+etc/media_codecs_performance.xml
+etc/a2dp_audio_policy_configuration.xml
+etc/audio_policy_configuration.xml
+etc/audio_policy_volumes.xml
+etc/default_volume_tables.xml
+etc/r_submix_audio_policy_configuration.xml
+etc/usb_audio_policy_configuration.xml
 
 # framework
-system/framework/arm/boot-mediatek-common.art
-system/framework/arm/boot-mediatek-common.oat
-system/framework/arm/boot-mediatek-framework.art
-system/framework/arm/boot-mediatek-framework.oat
-system/framework/arm/boot-mediatek-telephony-common.art
-system/framework/arm/boot-mediatek-telephony-common.oat
-system/framework/arm64/boot-mediatek-common.art
-system/framework/arm64/boot-mediatek-common.oat
-system/framework/arm64/boot-mediatek-framework.art
-system/framework/arm64/boot-mediatek-framework.oat
-system/framework/arm64/boot-mediatek-telephony-common.art
-system/framework/arm64/boot-mediatek-telephony-common.oat
-system/framework/mediatek-common.jar
-system/framework/mediatek-framework.jar
-system/framework/mediatek-telephony-common.jar
+framework/arm/boot-mediatek-common.art
+framework/arm/boot-mediatek-common.oat
+framework/arm/boot-mediatek-framework.art
+framework/arm/boot-mediatek-framework.oat
+framework/arm/boot-mediatek-telephony-common.art
+framework/arm/boot-mediatek-telephony-common.oat
+framework/arm64/boot-mediatek-common.art
+framework/arm64/boot-mediatek-common.oat
+framework/arm64/boot-mediatek-framework.art
+framework/arm64/boot-mediatek-framework.oat
+framework/arm64/boot-mediatek-telephony-common.art
+framework/arm64/boot-mediatek-telephony-common.oat
+framework/mediatek-common.jar
+framework/mediatek-framework.jar
+framework/mediatek-telephony-common.jar
 
 # misc
-system/lib/libmediatek_exceptionlog.so
-system/lib64/libmediatek_exceptionlog.so
-system/usr/keylayout/mtk-kpd.kl
+lib/libmediatek_exceptionlog.so
+lib64/libmediatek_exceptionlog.so
+usr/keylayout/mtk-kpd.kl
 
 # keyboard
-#system/app/iWnnIME/iWnnIME.apk
-#system/app/iWnnIME_oldskin/iWnnIME_oldskin.apk
+#app/iWnnIME/iWnnIME.apk
+#app/iWnnIME_oldskin/iWnnIME_oldskin.apk
