@@ -1,4 +1,5 @@
 # WARNING: THIS FILE IS TESTING
+# -- VENDOR --
 
 # audio
 vendor/etc/audio_device.xml
@@ -380,12 +381,12 @@ vendor/bin/wmt_loader
 vendor/bin/wmt_loopback
 
 # mediatek app (testing)
-#-vendor/framework/mediatek-res/mediatek-res.apk
-#-vendor/app/MTKThermalManager/MTKThermalManager.apk
+vendor/framework/mediatek-res/mediatek-res.apk
+vendor/app/MTKThermalManager/MTKThermalManager.apk
 #-vendor/app/CalendarImporter/CalendarImporter.apk
 #-vendor/app/Camera/Camera.apk
-#-vendor/app/MTKLogger/MTKLogger.apk
-#-vendor/app/MiraVision/MiraVision.apk
+vendor/app/MTKLogger/MTKLogger.apk
+vendor/app/MiraVision/MiraVision.apk
 #-vendor/app/DchaDataBox/DchaDataBox.apk
 #-vendor/app/DchaSetupWizard/DchaSetupWizard.apk
 #-vendor/app/DchaSystemSettings/DchaSystemSettings.apk
@@ -400,3 +401,33 @@ vendor/etc/.tp/thermal.conf
 vendor/framework/CustomPropInterface.jar
 vendor/framework/oat/arm64/CustomPropInterface.odex
 vendor/framework/oat/arm/CustomPropInterface.odex
+
+# -- STOCK ROM --
+
+# Audio / Codecs
+system/lib/libMTKAudioTimeStretch.so
+system/lib64/libMTKAudioTimeStretch.so
+system/etc/media_codecs_mediatek_audio.xml
+system/etc/media_codecs_mediatek_video.xml
+
+# framework
+system/framework/arm/boot-mediatek-common.art
+system/framework/arm/boot-mediatek-common.oat
+system/framework/arm/boot-mediatek-framework.art
+system/framework/arm/boot-mediatek-framework.oat
+system/framework/arm/boot-mediatek-telephony-common.art
+system/framework/arm/boot-mediatek-telephony-common.oat
+system/framework/arm64/boot-mediatek-common.art
+system/framework/arm64/boot-mediatek-common.oat
+system/framework/arm64/boot-mediatek-framework.art
+system/framework/arm64/boot-mediatek-framework.oat
+system/framework/arm64/boot-mediatek-telephony-common.art
+system/framework/arm64/boot-mediatek-telephony-common.oat
+system/framework/mediatek-common.jar
+system/framework/mediatek-framework.jar
+system/framework/mediatek-telephony-common.jar
+
+# misc
+system/lib/libmediatek_exceptionlog.so
+system/lib64/libmediatek_exceptionlog.so
+system/usr/keylayout/mtk-kpd.kl

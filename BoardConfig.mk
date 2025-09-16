@@ -15,6 +15,7 @@ TARGET_CPU_ABI := arm64-v8a
 TARGET_CPU_ABI2 := 
 TARGET_CPU_VARIANT := generic
 TARGET_CPU_VARIANT_RUNTIME := generic
+TARGET_IS_64_BIT := true
 
 TARGET_2ND_ARCH := arm
 TARGET_2ND_ARCH_VARIANT := armv7-a-neon
@@ -39,9 +40,27 @@ TARGET_BOOTLOADER_BOARD_NAME := a04br3
 TARGET_NO_BOOTLOADER := true
 
 # Display
-
 TARGET_SCREEN_WIDTH := 1280
 TARGET_SCREEN_HEIGHT := 800
+
+# Graphics
+BOARD_EGL_CFG := $(DEVICE_PATH)/configs/egl.cfg
+USE_OPENGL_RENDERER := true
+TARGET_USES_C2D_COMPOSITION := true
+TARGET_USES_OVERLAY := true
+TARGET_USES_ION := true
+TARGET_DISPLAY_USE_RETIRE_FENCE := true
+
+# Bluetooth
+#MTK_BT_SUPPORT := yes
+#BOARD_HAVE_BLUETOOTH := true
+#BOARD_HAVE_BLUETOOTH_MTK := true
+#BOARD_BLUETOOTH_DOES_NOT_USE_RFKILL := true
+#BOARD_BLUETOOTH_BDROID_HCILP_INCLUDED := 0
+
+# audio
+#USE_XML_AUDIO_POLICY_CONF := 1
+BOARD_USES_MTK_AUDIO := true
 
 # File systems
 BOARD_HAS_LARGE_FILESYSTEM := true
@@ -95,12 +114,8 @@ BOARD_USES_MTK_HARDWARE := true
 MTK_HARDWARE := true
 BOARD_HAS_MTK_HARDWARE := true
 ENABLE_CPUSETS := true
-BOARD_USES_MTK_AUDIO := true
 
-# CUSTOM bootimg.mk is not needed!!!
-#BOARD_CUSTOM_BOOTIMG_MK := $(DEVICE_PATH)/mkbootimg.mk
 
-# ---  実験的なオプション ---
 
 # Inherit from the proprietary version
 -include vendor/sts/a04br3/BoardConfigVendor.mk
@@ -116,13 +131,7 @@ PRODUCT_SOONG_NAMESPACES += $(DEVICE_PATH)
 BOARD_AVB_ENABLE := false
 
 # SELinux
-#BOARD_SEPOLICY_DIRS := $(DEVICE_PATH)/sepolicy
 BOARD_SEPOLICY_DIRS := \
 	$(LOCAL_PATH)/sepolicy/
-#BOARD_SEPOLICY_M4DEFS := \
-    public_domain=authr_type \
-    mlstrustedsubject=domain
-#BOARD_SEPOLICY_VERS := 29
 BOARD_SECCOMP_POLICY += $(DEVICE_PATH)/seccomp
 SELINUX_IGNORE_NEVERALLOWS := true
-#WITH_SELINUX := false
