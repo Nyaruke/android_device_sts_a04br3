@@ -405,11 +405,11 @@ vendor/framework/oat/arm/CustomPropInterface.odex
 # -- STOCK ROM --
 
 # Audio / Codecs
-system/lib/libMTKAudioTimeStretch.so
-system/lib64/libMTKAudioTimeStretch.so
-system/etc/media_codecs_mediatek_audio.xml
-system/etc/media_codecs_mediatek_video.xml
-system/etc/media_codecs.xml
+lib/libMTKAudioTimeStretch.so
+lib64/libMTKAudioTimeStretch.so
+etc/media_codecs_mediatek_audio.xml
+etc/media_codecs_mediatek_video.xml
+etc/media_codecs.xml
 system/etc/media_codecs_google_audio.xml
 system/etc/media_codecs_google_video_le.xml
 system/etc/media_codecs_mediatek_audio.xml
