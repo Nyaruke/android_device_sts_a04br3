@@ -409,6 +409,18 @@ system/lib/libMTKAudioTimeStretch.so
 system/lib64/libMTKAudioTimeStretch.so
 system/etc/media_codecs_mediatek_audio.xml
 system/etc/media_codecs_mediatek_video.xml
+system/etc/media_codecs.xml
+system/etc/media_codecs_google_audio.xml
+system/etc/media_codecs_google_video_le.xml
+system/etc/media_codecs_mediatek_audio.xml
+system/etc/media_codecs_mediatek_video.xml
+system/etc/media_codecs_performance.xml
+system/etc/a2dp_audio_policy_configuration.xml
+system/etc/audio_policy_configuration.xml
+system/etc/audio_policy_volumes.xml
+system/etc/default_volume_tables.xml
+system/etc/r_submix_audio_policy_configuration.xml
+system/etc/usb_audio_policy_configuration.xml
 
 # framework
 system/framework/arm/boot-mediatek-common.art
@@ -431,3 +443,7 @@ system/framework/mediatek-telephony-common.jar
 system/lib/libmediatek_exceptionlog.so
 system/lib64/libmediatek_exceptionlog.so
 system/usr/keylayout/mtk-kpd.kl
+
+# keyboard
+#system/app/iWnnIME/iWnnIME.apk
+#system/app/iWnnIME_oldskin/iWnnIME_oldskin.apk
