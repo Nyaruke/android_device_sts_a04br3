@@ -406,7 +406,6 @@ vendor/framework/oat/arm/CustomPropInterface.odex
 
 # Audio / Codecs
 lib/libMTKAudioTimeStretch.so
-lib64/libMTKAudioTimeStretch.so
 etc/media_codecs_mediatek_audio.xml
 etc/media_codecs_mediatek_video.xml
 etc/media_codecs.xml
