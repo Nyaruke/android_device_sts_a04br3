@@ -6,4 +6,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_a04br3.mk
+    device/sts/a04br3/aosp_a04br3.mk
