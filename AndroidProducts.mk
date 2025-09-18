@@ -4,7 +4,6 @@
 #
 # SPDX-License-Identifier: Apache-2.0
 #
-LOCAL_DIR := device/sts/a04br3
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/aosp_a04br3.mk

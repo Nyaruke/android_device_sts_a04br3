@@ -7,7 +7,12 @@
 
 LOCAL_PATH := $(call my-dir)
 
+ifeq ($(TARGET_PRODUCT),a04br3)
+
+include $(CLEAR_VARS)
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
+
+endif
 
 KERNEL_OUT := $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ
 
