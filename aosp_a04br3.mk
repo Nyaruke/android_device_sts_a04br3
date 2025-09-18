@@ -16,7 +16,7 @@ $(call inherit-product, device/sts/a04br3/device.mk)
 PRODUCT_NAME := aosp_a04br3
 PRODUCT_BRAND := benesse
 PRODUCT_DEVICE := a04br3 # WARNING: Do not edit
-PRODUCT_MODEL := TAB-A04-BR3
+PRODUCT_MODEL := a04br3
 PRODUCT_MANUFACTURER := sts
 PRODUCT_GMS_CLIENTID_BASE := android-sts
 
