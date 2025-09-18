@@ -5,14 +5,6 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-TARGET_DEVICE := a04br3
-PRODUCT_NAME := aosp_a04br3
-PRODUCT_DEVICE := a04br3 # WARNING: Do not edit
-PRODUCT_MODEL := TAB-A04-BR3
-PRODUCT_BRAND := benesse
-PRODUCT_MANUFACTURER := sts
-PRODUCT_GMS_CLIENTID_BASE := android-sts
-
 DEVICE_PATH := device/sts/a04br3
 ALLOW_MISSING_DEPENDENCIES := true
 
