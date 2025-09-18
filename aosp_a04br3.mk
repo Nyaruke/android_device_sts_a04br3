@@ -14,7 +14,7 @@ $(call inherit-product, device/sts/a04br3/device.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_NAME := aosp_a04br3
-PRODUCT_DEVICE := a04br3 # WARNING: Do not edit
+PRODUCT_DEVICE := a04br3
 PRODUCT_MODEL := TAB-A04-BR3
 PRODUCT_BRAND := benesse
 PRODUCT_MANUFACTURER := sts
