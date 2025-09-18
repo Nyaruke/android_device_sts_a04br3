@@ -5,6 +5,4 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-add_lunch_combo aosp_a04br3-user
 add_lunch_combo aosp_a04br3-userdebug
-add_lunch_combo aosp_a04br3-eng
