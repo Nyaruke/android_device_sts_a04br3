@@ -57,6 +57,7 @@ main() {
 
     run_command "lunch ${DEFAULT_LINEAGE_OR_CM}_${TARGET_DEVICE}-${DEFAULT_COMBO}"
     run_command "mkdir -p out/target/product/${TARGET_DEVICE}/obj/KERNEL_OBJ/usr"
+    #run_command "mkdir -p out/target/product/${TARGET_DEVICE}/kernel"
     
     if [ "$FORCE_CLEAN" = "true" ]; then
         run_command "make clean"
