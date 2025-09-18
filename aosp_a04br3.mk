@@ -7,15 +7,15 @@
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
-#$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
-$(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
+#$(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 
 $(call inherit-product, device/sts/a04br3/device.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_NAME := aosp_a04br3
 PRODUCT_DEVICE := a04br3
-PRODUCT_MODEL := TAB-A04-BR3
+PRODUCT_MODEL := a04br3
 PRODUCT_BRAND := benesse
 PRODUCT_MANUFACTURER := sts
 PRODUCT_GMS_CLIENTID_BASE := android-sts
