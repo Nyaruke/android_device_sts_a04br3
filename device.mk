@@ -10,6 +10,8 @@ LOCAL_PATH := device/sts/a04br3
 # Product characteristics
 PRODUCT_CHARACTERISTICS := tablet
 
+TARGET_LOCALES := ja_JP en_US
+
 PRODUCT_PACKAGES += \
     fstab.mt8167 \
     factory_init.connectivity.rc \
